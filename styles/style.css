@@ -3,23 +3,28 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
 }
+
 h1 {
     font-family: 'Sigmar One', cursive;
     font-size: 48px;
     color: rgb(25, 53, 95);
 }
+
 .container {
     display: flex;
     justify-content: space-around;
     background-color: rgb(243, 247, 242);
     width: 50%;
-    height: 300px;;
+    height: 300px;
+    ;
 }
+
 .list {
     font-family: 'Asap Condensed', sans-serif;
     text-align: left;
     line-height: 30px;
 }
+
 h2 {
     font-family: 'Sigmar One', cursive;
     font-size: 40px;
@@ -27,9 +32,11 @@ h2 {
     margin-left: 120px;
     margin-top: 50px;
 }
+
 .container-gem {
     margin-top: 40px;
 }
+
 .rand-contain {
     display: flex;
     justify-content: space-around;
@@ -38,18 +45,21 @@ h2 {
     margin-right: 0px;
     background-color: transparent;
 }
+
 h3 {
     font-family: 'Asap Condensed', sans-serif;
     font-size: 30px;
     color: rgb(223, 219, 219);
     margin: 30px;
 }
+
 h4 {
     font-family: 'Asap Condensed', sans-serif;
     font-size: 25px;
     color: rgb(150, 16, 16);
     margin: 0px;
 }
+
 .inner-bx {
     display: flex;
     justify-content: space-around;
@@ -61,4 +71,56 @@ h4 {
     color: black;
     background-color: rgb(237, 243, 238);
 }
+.gem-contain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.gem-bx {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 40px;
+    width: 5%;
+    height: 40px;
 
+    color: black;
+    background-color: rgb(243, 54, 54);
+}
+.gem-bx-2 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 40px;
+    width: 5%;
+    height: 40px;
+
+    color: black;
+    background-color: rgb(209, 10, 235);
+}
+.gem-bx-3 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 40px;
+    width: 5%;
+    height: 40px;
+
+    color: black;
+    background-color: rgb(17, 219, 51);
+}
+.gem-bx-4 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 40px;
+    width: 5%;
+    height: 40px;
+
+    color: black;
+    background-color: rgb(230, 93, 15);
+}
+.fa-arrow-circle-up {
+    color: rgb(70, 22, 77);
+}
