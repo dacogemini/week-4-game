@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-    <script src="scripts/game.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Bangers|Sigmar+One" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="styles\style.css">
@@ -37,9 +36,12 @@
     <center>
         <div class="container-gem">
             <img src="https://avatars0.githubusercontent.com/u/210414?s=400&v=4" alt="Red Ruby" width="75" height="75" id="red"> &nbsp
-            <img src="http://adamchampagne.com/crystal-collector/assets/images/purple-crystal.png" alt="Purple Gem" width="75" height="75" id="purple"> &nbsp
-            <img src="https://harithimad.github.io/crystal-collector/assets/images/green.png" alt="Green Emerald" width="75" height="75" id="green"> &nbsp
-            <img src="http://adamchampagne.com/crystal-collector/assets/images/orange-crystal.png" alt="Orange Gem" width="75" height="75" id="orange"> &nbsp
+            <img src="http://adamchampagne.com/crystal-collector/assets/images/purple-crystal.png" alt="Purple Gem" width="75" height="75"
+                id="purple"> &nbsp
+            <img src="https://harithimad.github.io/crystal-collector/assets/images/green.png" alt="Green Emerald" width="75" height="75"
+                id="green"> &nbsp
+            <img src="http://adamchampagne.com/crystal-collector/assets/images/orange-crystal.png" alt="Orange Gem" width="75" height="75"
+                id="orange"> &nbsp
             <p>
                 <div class="gem-contain">
                     <div class="gem-bx" id="g1">
@@ -48,20 +50,24 @@
                     <div class="gem-bx-2" id="g2">
                         <!-- PURPLE -->
                     </div>&nbsp &nbsp &nbsp
+                    <!-- GREEN -->
                     <div class="gem-bx-3" id="g3">
                     </div>&nbsp &nbsp &nbsp
+                    <!-- ORANGE -->
                     <div class="gem-bx-4" id="g4">
                     </div>&nbsp &nbsp &nbsp
 
                 </div>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
-        <h3>Click a Gem to get a number! <i class="fas fa-arrow-circle-up"></i>
+        <h3>Click a Gem to get a number!
+            <i class="fas fa-arrow-circle-up"></i>
             </p>
             <div id="scoreboard">
+                    <div class='math'></div>
                 <h3>Score:
-                    <span id="status"></span>
+                    <span id="score"></span>
                 </h3>
                 <h3>Wins:
                     <span id="win"></span>
@@ -79,6 +85,14 @@
             </div>
 
     </center>
+    <!-- JAVASCRIPT -->
+    <script src="scripts/game.js"></script>
 </body>
-
 </html>
+<!--
+C:\Users\dan.CLARKWC\Desktop\nu-projects\homework\week-4-game-master\index.html
+
+C:\Users\dan.CLARKWC\Desktop\nu-projects\homework\week-4-game-master\scripts\game.js
+
+C:\Users\dan.CLARKWC\Desktop\nu-projects\homework\week-4-game-master\styles\style.css
+-->
