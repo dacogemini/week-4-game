@@ -9,6 +9,7 @@
         crossorigin="anonymous"></script>
     <script src="scripts/game.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Bangers|Sigmar+One" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="styles\style.css">
     <title>Crystal Collectors</title>
 </head>
@@ -32,21 +33,51 @@
                 </p>
             </ol>
         </div>
-       </center>
+    </center>
     <center>
         <div class="container-gem">
-            <img src="https://avatars0.githubusercontent.com/u/210414?s=400&v=4" alt="Red Ruby" width="75" height="75"> &nbsp
-            <img src="http://adamchampagne.com/crystal-collector/assets/images/purple-crystal.png" alt="Purple Gem" width="75" height="75"> &nbsp
-            <img src="https://harithimad.github.io/crystal-collector/assets/images/green.png" alt="Green Emerald" width="75" height="75"> &nbsp
-            <img src="http://adamchampagne.com/crystal-collector/assets/images/orange-crystal.png" alt="Orange Gem" width="75" height="75"> &nbsp
-            <p><h3>Click a Gem to get a number!</h3></p>
+            <img src="https://avatars0.githubusercontent.com/u/210414?s=400&v=4" alt="Red Ruby" width="75" height="75" id="red"> &nbsp
+            <img src="http://adamchampagne.com/crystal-collector/assets/images/purple-crystal.png" alt="Purple Gem" width="75" height="75" id="purple"> &nbsp
+            <img src="https://harithimad.github.io/crystal-collector/assets/images/green.png" alt="Green Emerald" width="75" height="75" id="green"> &nbsp
+            <img src="http://adamchampagne.com/crystal-collector/assets/images/orange-crystal.png" alt="Orange Gem" width="75" height="75" id="orange"> &nbsp
+            <p>
+                <div class="gem-contain">
+                    <div class="gem-bx" id="g1">
+                        <!-- RED -->
+                    </div>&nbsp &nbsp &nbsp
+                    <div class="gem-bx-2" id="g2">
+                        <!-- PURPLE -->
+                    </div>&nbsp &nbsp &nbsp
+                    <div class="gem-bx-3" id="g3">
+                    </div>&nbsp &nbsp &nbsp
+                    <div class="gem-bx-4" id="g4">
+                    </div>&nbsp &nbsp &nbsp
+
+                </div>
         </div>
-        <h3>Random Number</h3>
-        <div class="rand-contain">
-            <div class="inner-bx" id="go">
+        </div>
+        </div>
+        <h3>Click a Gem to get a number! <i class="fas fa-arrow-circle-up"></i>
+            </p>
+            <div id="scoreboard">
+                <h3>Score:
+                    <span id="status"></span>
+                </h3>
+                <h3>Wins:
+                    <span id="win"></span>
+                </h3>
+                <h3>Losses:
+                    <span id="loss"></span>
+                </h3>
             </div>
-        </div>
-        
+            </div>
+            <!-- RANDOM NUMBER -->
+            <h3>Random Number</h3>
+            <div class="rand-contain">
+                <div class="inner-bx" id="go">
+                </div>
+            </div>
+
     </center>
 </body>
 
